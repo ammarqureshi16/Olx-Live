@@ -15,12 +15,12 @@
   display: flex;
   align-items: center;
   height: 100vh;
+  color: #fff;
 }
 .container{
   width: 1200px;
   max-width: 1200px;
   margin: 0 auto;
-  color:  white; 
 }
 .banner-text{
   width: 500px;
@@ -46,13 +46,8 @@
   width: 100%;
 }
 .navbar-text{
-  /* display: flex; */
   height: 60px;
-  /* align-items: center; */
 }
-/* .logo{
-  width: 40%;
-} */
 .banner-btn{
   margin-top: 35px;
 }
@@ -79,4 +74,25 @@
   padding: 0 15px;
   font-weight: 800;
   text-transform: uppercase;
+}
+.olx{
+  padding: 80px 0;
+}
+.image{
+  background-image: url('../../Assets/Image/piizza.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.row{
+  width: 100%;
+  display: flex;
+}
+.col-6{
+  width: 50%;
+}
+.about h3 {
+  color: rgba(37, 37, 37, 0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
 }
